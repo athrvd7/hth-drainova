@@ -1,0 +1,8 @@
+# machine junk — keep out of the repo
+.venv*/
+node_modules/
+dist/
+__pycache__/
+__MACOSX/
+.DS_Store
+*.zip
