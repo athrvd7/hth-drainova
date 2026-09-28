@@ -1,0 +1,365 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-001",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0664,
+          21.1348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-002",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.05,
+          21.173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-003",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.025,
+          21.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-004",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.08,
+          21.149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-005",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.073,
+          21.178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-006",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.09,
+          21.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-007",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0886,
+          21.1442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-008",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.075,
+          21.158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-009",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.105,
+          21.116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-010",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.13,
+          21.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-011",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1298,
+          21.1074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-012",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.145,
+          21.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-013",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC fire services / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.11,
+          21.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-014",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "Narendra Nagar fire station / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.071,
+          21.126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-015",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "Narendra Nagar fire station / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.081,
+          21.116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-016",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "Narendra Nagar fire station / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.055,
+          21.112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-017",
+        "risk": "HIGH",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "Narendra Nagar fire station / TOI",
+        "event_year": "2026",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0478,
+          21.0992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-018",
+        "risk": "MODERATE",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC / TOI",
+        "event_year": "2025",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.105,
+          21.116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-019",
+        "risk": "MODERATE",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC / TOI",
+        "event_year": "2025",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0718,
+          21.1091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "RZ-020",
+        "risk": "MODERATE",
+        "basis": "documented flood/waterlogging evidence",
+        "source": "NMC / TOI",
+        "event_year": "2025",
+        "status": "evidence-derived point; not an official risk boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.105,
+          21.157
+        ]
+      }
+    }
+  ]
+}

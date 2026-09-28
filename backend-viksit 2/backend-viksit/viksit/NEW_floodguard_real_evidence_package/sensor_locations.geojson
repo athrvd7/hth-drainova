@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NGP-01",
+        "status": "Proposed/demo project sensor",
+        "source": "Project team input",
+        "data_status": "Not verified as an actually deployed public sensor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.09,
+          21.112
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,689 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kachipura Slum",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Repeatedly listed as flood-prone",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0664,
+          21.1348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jhingabai Takli",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Listed among recurring flood hotspots",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.05,
+          21.173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pandhrabodi",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Listed among recurring flood hotspots",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.025,
+          21.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mor Bhavan",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Listed among recurring flood hotspots",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.08,
+          21.149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mankapur Ring Road",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Listed among recurring flood hotspots",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.073,
+          21.178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bajeria",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Listed among recurring flood hotspots",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.09,
+          21.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Loha Pul RUB",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Listed among recurring flood hotspots",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0886,
+          21.1442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mominpura",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Listed among recurring flood hotspots",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.075,
+          21.158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rameshwari",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Listed among recurring flood hotspots",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.105,
+          21.116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pipla Road",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Listed among recurring flood hotspots",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.13,
+          21.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hudkeshwar Road",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Listed among recurring flood hotspots",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1298,
+          21.1074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bharatwada",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Listed among recurring flood hotspots",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.145,
+          21.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pili River belt",
+        "event_year": "2026",
+        "source": "NMC fire services / TOI",
+        "evidence": "Recurring flood-prone belt",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.11,
+          21.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pratap Nagar Ring Road",
+        "event_year": "2026",
+        "source": "Narendra Nagar fire station / TOI",
+        "evidence": "Listed in 2026 vulnerable locations",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.071,
+          21.126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Deo Nagar",
+        "event_year": "2026",
+        "source": "Narendra Nagar fire station / TOI",
+        "evidence": "Listed in 2026 vulnerable locations",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.081,
+          21.116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trimurti Nagar",
+        "event_year": "2026",
+        "source": "Narendra Nagar fire station / TOI",
+        "evidence": "Listed in 2026 vulnerable locations",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.055,
+          21.112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manish Nagar",
+        "event_year": "2026",
+        "source": "Narendra Nagar fire station / TOI",
+        "evidence": "Repeatedly reported waterlogging",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0478,
+          21.0992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rameshwari",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Waterlogging reported during 2025 rains",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.105,
+          21.116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Narendra Nagar Underbridge",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Water accumulation reported",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0718,
+          21.1091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shanti Nagar Underpass",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Considerable water accumulation",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.105,
+          21.157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shankar Nagar Square",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Minor pooling reported",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0631,
+          21.1364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tandapeth",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Underpass/road inundation reported",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.105,
+          21.162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rani Durgawati Nagar Underpass",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Completely inundated in heavy rain",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.102,
+          21.161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dubey Nagar",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Waterlogging reported",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.113,
+          21.168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MHADA Colony near Kalamna",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Waterlogging reported",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.135,
+          21.173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gayatri Nagar",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Waterlogging reported",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.056,
+          21.115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamgar Nagar",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Waterlogging reported",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.105,
+          21.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kripalani Square",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Fifth consecutive year of flooding reported",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.08,
+          21.125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jagnade Square",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Intersection submerged after heavy rainfall",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.098,
+          21.152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Samta Nagar Main Chowk",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Prolonged waterlogging reported",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.086,
+          21.177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Takshashila Nagar",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Waterlogging reported",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.088,
+          21.181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gaikwad Basti",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Waterlogging reported",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.092,
+          21.183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ayodhya Nagar",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Historically flood-prone; temporary diversion improved conditions",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.117,
+          21.112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sonegaon Lake / Prasad Society",
+        "event_year": "2025",
+        "source": "NMC / TOI",
+        "evidence": "Lake overflow caused nearby waterlogging",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.088,
+          21.109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ambazari Lake catchment",
+        "event_year": "2023",
+        "source": "NMC / disaster reporting",
+        "evidence": "Severely affected during 2023 flood",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0435,
+          21.1302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nag River corridor",
+        "event_year": "2023",
+        "source": "NMC / disaster reporting",
+        "evidence": "Affected during 2023 flood",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.08,
+          21.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pohra River corridor",
+        "event_year": "2023",
+        "source": "NMC / disaster reporting",
+        "evidence": "Affected during 2023 flood",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.125,
+          21.135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Canal",
+        "event_year": "2023",
+        "source": "NMC / disaster reporting",
+        "evidence": "Affected during 2023 flood",
+        "coordinate_type": "Approximate reference coordinate",
+        "data_status": "documented real-world location/event; coordinate is approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.09,
+          21.17
+        ]
+      }
+    }
+  ]
+}
