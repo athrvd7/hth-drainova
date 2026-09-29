@@ -11,7 +11,7 @@ const RISK_COLORS = {
   LOW: '#10b981',
 };
 
-export default function NagpurMap({ selectedZone, onSelectZone }) {
+export default function NagpurMap({ selectedZone, onSelectZone, latestReading }) {
   const [mapData, setMapData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -411,6 +411,7 @@ export default function NagpurMap({ selectedZone, onSelectZone }) {
         <NagpurMap3D
           mapData={mapData}
           selectedZone={selectedZone}
+          liveReading={latestReading}
           onSelectZone={onSelectZone}
           filterMode={filterMode}
         />

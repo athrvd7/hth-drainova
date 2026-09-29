@@ -225,6 +225,7 @@ export default function App() {
           <Suspense fallback={<div className="glass-card map-loading-state" style={{ height: '560px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-muted)', fontSize: '0.875rem' }}>Loading map engine...</div>}>
             <NagpurMap
               selectedZone={selectedZone}
+              latestReading={latestReading}
               onSelectZone={(z) => {
                 setSelectedZone(z);
                 setActiveTab('live');

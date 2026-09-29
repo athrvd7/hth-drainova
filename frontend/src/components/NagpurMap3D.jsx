@@ -17,13 +17,21 @@ const RISK_HEIGHT = {
 };
 // Selected zone stands this many times taller so live demo zones read at a glance.
 const SPOTLIGHT_HEIGHT_SCALE = 2.2;
+// Live sensor status reuses the static visual vocabulary; SAFE means "currently safe", not "unsusceptible".
+const LIVE_CLASS = {
+  SAFE: 'LOW',
+  WARNING: 'MODERATE',
+  DANGER: 'HIGH',
+  CRITICAL: 'CRITICAL',
+};
 
 const FOOTPRINT_SHRINK = 0.88;
 const ELEVATION_SCALE = 0.05;
 
-export default function NagpurMap3D({ mapData, selectedZone, onSelectZone, filterMode = 'all' }) {
+export default function NagpurMap3D({ mapData, selectedZone, liveReading = null, onSelectZone, filterMode = 'all' }) {
   const containerRef = useRef(null);
   const sceneState = useRef(null);
+  const liveRef = useRef(null);
   const [hovered, setHovered] = useState(null);
   const [heading, setHeading] = useState({ angle: 0, headingDeg: 0, cardinal: 'N' });
 
@@ -261,12 +269,17 @@ export default function NagpurMap3D({ mapData, selectedZone, onSelectZone, filte
       scene.add(beacon);
     });
 
-    // ---- Filter & Selection updater ----
+    // ---- Filter, Selection & Live-status updater ----
     const applyVisualState = (curSelected, curFilter) => {
+      const live = liveRef.current;
+      const liveZoneId = live?.zone_id || curSelected;
+      const liveClass = live ? LIVE_CLASS[(live.risk_level || '').toUpperCase()] : null;
+      if (sceneState.current) sceneState.current.liveMesh = null;
       meshes.forEach((m) => {
         const base = m.userData.risk_class;
         if (!base) return;
         const isSel = m.userData.zone_id === curSelected;
+        const isLive = Boolean(liveClass) && m.userData.zone_id === liveZoneId;
 
         let targetOpacity = 0.88;
         if (curFilter === 'high') {
@@ -277,14 +290,25 @@ export default function NagpurMap3D({ mapData, selectedZone, onSelectZone, filte
 
         m.material.transparent = true;
         m.material.opacity = isSel ? 1 : targetOpacity;
-        m.scale.z = isSel ? SPOTLIGHT_HEIGHT_SCALE : 1;
 
-        if (isSel) {
-          m.material.emissive.setHex(0xffffff);
-          m.material.emissiveIntensity = 0.65;
+        if (isLive) {
+          const liveColor = RISK_COLORS[liveClass] || RISK_COLORS.LOW;
+          const liveHeight = RISK_HEIGHT[liveClass] || RISK_HEIGHT.LOW;
+          m.material.color.setHex(liveColor);
+          m.material.emissive.setHex(liveColor);
+          m.material.emissiveIntensity = 0.5;
+          m.scale.z = (liveHeight / RISK_HEIGHT[base]) * (isSel ? SPOTLIGHT_HEIGHT_SCALE : 1);
+          sceneState.current.liveMesh = m;
         } else {
-          m.material.emissive.setHex(RISK_COLORS[base] || RISK_COLORS.LOW);
-          m.material.emissiveIntensity = base === 'CRITICAL' ? 0.35 : base === 'HIGH' ? 0.22 : 0.1;
+          m.material.color.setHex(RISK_COLORS[base] || RISK_COLORS.LOW);
+          m.scale.z = isSel ? SPOTLIGHT_HEIGHT_SCALE : 1;
+          if (isSel) {
+            m.material.emissive.setHex(0xffffff);
+            m.material.emissiveIntensity = 0.65;
+          } else {
+            m.material.emissive.setHex(RISK_COLORS[base] || RISK_COLORS.LOW);
+            m.material.emissiveIntensity = base === 'CRITICAL' ? 0.35 : base === 'HIGH' ? 0.22 : 0.1;
+          }
         }
       });
     };
@@ -364,8 +388,13 @@ export default function NagpurMap3D({ mapData, selectedZone, onSelectZone, filte
     };
 
     // ---- Animation loop ----
+    const clock = new THREE.Clock();
     const animate = () => {
       controls.update();
+      const liveMesh = sceneState.current?.liveMesh;
+      if (liveMesh) {
+        liveMesh.material.emissiveIntensity = 0.45 + 0.25 * Math.sin(clock.getElapsedTime() * 5);
+      }
       renderer.render(scene, camera);
       rafId = requestAnimationFrame(animate);
     };
@@ -414,10 +443,11 @@ export default function NagpurMap3D({ mapData, selectedZone, onSelectZone, filte
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mapData]);
 
-  // Update selection / filter without recreating the scene
+  // Update selection / filter / live reading without recreating the scene
   useEffect(() => {
+    liveRef.current = liveReading;
     sceneState.current?.applyVisualState?.(selectedZone, filterMode);
-  }, [selectedZone, filterMode]);
+  }, [selectedZone, filterMode, liveReading]);
 
   const handleResetNorth = useCallback(() => {
     sceneState.current?.resetNorth?.();
